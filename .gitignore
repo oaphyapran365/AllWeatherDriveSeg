@@ -21,9 +21,6 @@ runs/
 checkpoints/
 *.pth
 
-demo_outputs/
-*.mp4
-*.png
 
 .vscode/
 .idea/

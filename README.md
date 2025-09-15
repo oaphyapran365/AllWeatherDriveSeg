@@ -33,10 +33,12 @@ This repo shows how to:
 
 ### Overall ACDC (val)
 
-| Training recipe | ACDC mIoU (zero-shot) | ACDC mIoU + BN-Adapt (iters=1) |
+| Training recipe | ACDC mIoU (zero-shot) | ACDC mIoU + BN-Adapt (passes=1) |
 |---|---:|---:|
 | **Baseline** (Cityscapes only) | **0.83** | **0.95** |
 | **WeatherAug** (Cityscapes + heavy weather augs) | 0.62 | 0.61 |
+
+> BN-Adapt ‘passes’ are test-time sweeps over the target set to update BatchNorm running statistics, independent of training epochs.
 
 ### Per-condition ACDC (val)
 
