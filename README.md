@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  ▶ <a href="demo_outputs/acdc_demo_triptych.mp4">Demo video: ACDC triptych (input | segmentation | overlay)</a>
+  ▶ <a href="demo_outputs/acdc_demo_triptych.gif">Demo video: ACDC triptych (input | segmentation | overlay)</a>
 </p>
 
 ---
